@@ -2,13 +2,13 @@ html, body, main {
   height: 100%;
 }
 
-/* body{background-image:url('lo.jpg');
-background-size:100%;
-background-repeat: repeat-y;
-background-attachment: fixed;
+ body{background-image:url('sno.gif');
+
+
   }*/
 
 .container {
+
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -17,4 +17,5 @@ background-attachment: fixed;
   align-items: center;
  height: 100%;
     display: flex;
+    position: relative;
 }
