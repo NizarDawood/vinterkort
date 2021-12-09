@@ -1,19 +1,20 @@
-html body main div{height: 100%;
-    
+html, body, main {
+  height: 100%;
 }
 
+/* body{background-image:url('lo.jpg');
+background-size:100%;
+background-repeat: repeat-y;
+background-attachment: fixed;
+  }*/
 
-
-
-.container{
-    margin: 25px;
-    width: 350px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: dashed 1px black;
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+ height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-content: stretch;
-    align-items: center;
-  }
+}
