@@ -2,20 +2,81 @@ html, body, main {
   height: 100%;
 }
 
- body{background-image:url('sno.gif');
+body{ 
+  background-image: url("sno.gif");
+  background-size: cover;
+  background-repeat:no-repeat ;
+height: 100vh;}
 
-
-  }*/
-
-.container {
-
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-around;
-  align-content: stretch;
-  align-items: center;
- height: 100%;
-    display: flex;
-    position: relative;
+.flexbox-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  
+ 
+ 
 }
+
+.flexbox-item1 {
+  height: 10px;
+  width: 600px;
+  margin-bottom: 10px;
+  background-color: red;
+    
+}
+.flexbox-item2 {
+ width: 600px;
+ 
+}
+
+ .flexbox-item3 {
+height: 10px; 
+width: 600px;
+margin-top: 10px;
+
+  background-color: red;
+ 
+   
+ }
+ 
+
+.backrounde-image2{
+  background-image: url("blå.jpg");
+ background-size: 100%;
+ background-repeat:no-repeat ;
+}
+h1 {
+  display: flex;
+  font-family: 'Princess Sofia', cursive;
+ justify-content: center;
+ margin-block-start: 0em;
+ margin-block-end: 0em;
+ font-size: 3.2em;
+ font-weight: 19;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.vinter > img {
+  object-fit: cover;
+  height: 50vh;
+  <img src="///vinter.jpg" alt=////"vin///ter" />
+*/
+
